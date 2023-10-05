@@ -1,0 +1,49 @@
+body{
+    background-image: url('/camel.jpg');
+    background-position: center bottom;
+}
+.Card{
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: rgb(25, 89, 114);
+    text-align: center;
+    background-image: url('/frosty.jpg');
+    border-radius: 2em;
+    opacity: 0.7;
+    width: content;
+    max-width: 410px;
+    max-height: 700px; 
+    margin: auto;
+}
+
+.Title{
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.City_Title{
+    margin-top: 1rem;
+}
+.Card_Section{
+    font-size: 1.1em;
+    font-family: cursive;
+    font-style: italic;
+    opacity: none;
+}
+.Card_Button{
+    padding: 0.8em 1.2em;
+    border-radius: 1em;
+    font-size: 1.2rem;
+    opacity: 0.9;
+    cursor: pointer;
+    transition: opacity 200ms ease,
+                transform 200ms ease,
+                box-shadow 200ms ease;
+    margin-bottom: 1.5rem;
+}
+.Card_Title{
+    font-size: 1.6em;
+}
+.Degrees_Title{
+    font-size: 2.2em;
+}
